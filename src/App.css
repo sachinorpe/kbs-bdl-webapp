@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.custom-navbar {
+  background-color: #f5e5d6; 
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .nav-link {
+    color: #5d4037;
+    padding: 10px 15px;
+    position: relative;
+    margin: 3px;
+    transition: color 0.3s ease-in-out;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #5d4037;
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover,
+    &.active {
+      color: #3e2723;
+    }
+
+    &:hover::before,
+    &.active::before {
+      width: 100%;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navbar .nav-link.active {
+    background-color: #fca7b7; 
+    color: #8d0404; 
+    font-weight: bold;
+    border-radius: 4px;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar .language-dropdown {    
+    font-size: 0.5rem; /* Makes the dropdown smaller */
+    background-color: #ceccc9 !important;
+    color: black;
   }
-}
+  
+  .navbar .language-dropdown .dropdown-toggle {
+    padding: 7px; 
+    font-size: 0.5rem;
+  }
+
+.content{
+  margin-top: 60px;
+}  

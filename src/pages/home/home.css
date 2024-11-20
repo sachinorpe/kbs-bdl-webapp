@@ -1,0 +1,38 @@
+.header {
+    margin-top: 70px;
+}
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents content overflow */
+  }
+  
+  .carousel {
+    width: 80%; /* Set the carousel width */
+    max-width: 1000px; /* Optional: Add a maximum width */
+    position: relative; /* Ensure position context */
+  }
+  
+  .carousel img {
+    width: 100%; /* Ensures the image doesn't exceed the carousel width */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Makes sure images are resized properly */
+  }
+  
+  .carousel-item {
+    transition: transform 0.5s ease-in-out; /* Smooth slide transitions */
+  }
+
+
+  .home-bg{
+    background-color: rgb(255, 255, 188);
+    align-items: center;
+  }
+
+  .home-content{    
+   
+    text-align: justify;
+    padding: 15px;
+  }

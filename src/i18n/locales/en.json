@@ -1,0 +1,18 @@
+{
+    "navbar": {
+        "home": "Home",
+        "services": "Services",
+        "gallery": "Gallery",
+        "events": "Events",
+        "contactus": "Contact Us"
+    },
+    "home_page":{
+        "home_title":"Uniting Kahrade Brahmins: Empowering Our Community",
+        "home_content_para1":"Welcome to the Kahrade Brahmin Community initiative, a platform dedicated to bringing all Kahrade Brahmins together to strengthen our bonds and create opportunities for growth. This initiative is a step toward fostering unity, collaboration, and mutual progress within our community.",
+        "home_content_para2":"Our mission is to provide a supportive environment where individuals can connect, share ideas, and uplift each other. By uniting as one, we aim to promote the talents, businesses, and achievements of our community members, ensuring greater visibility and recognition.",
+        "home_content_para3":"This platform is not just about networking; it’s about creating meaningful relationships that enhance personal and professional lives. Whether you are a professional, entrepreneur, or student, you will find value here through interactions, collaborations, and shared knowledge.",
+        "home_content_para4":"We believe in the power of community to drive progress. Through regular events, business promotions, and cultural activities, we aim to celebrate our heritage while embracing innovation and growth. Together, we can create a vibrant ecosystem where every member has the opportunity to thrive.",
+        "home_content_para5":"Join us in this journey of unity and empowerment. Together, let’s build a stronger, more connected Kahrade Brahmin community and pave the way for a brighter future. Let’s connect. Let’s grow. Let’s prosper as one."
+    },
+    "test":"Eng Text"
+}
